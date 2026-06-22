@@ -25,7 +25,7 @@
 //              So, 10100 is the answer (in decimal = 20)
 
 
-// RightShift Operator(>>)- Same as LeftShift Operator but numbers shifts towardsd right side 
+// RightShift Operator(>>)- Same as LeftShift Operator but numbers shifts towards right side 
 //      Example - 10>>1
 //              here, 10 =1010 in binary but after shifting right side(2 times) its will be 101 or 0101
 //              the last digit will disappear
