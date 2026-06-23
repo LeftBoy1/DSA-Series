@@ -8,8 +8,16 @@ int main(){
 
     cout<<arr[0]<<endl;
     
+    
     //Size of an array
     cout<<sizeof(arr) / sizeof(int) <<endl;     //     20Bytes/4Bytes
     
+
+    // Access all elements using a loop
+    for(int i = 0; i < 9; i++)
+    {
+        cout << x[i] << " ";
+
+    }
     return 0;
 }
