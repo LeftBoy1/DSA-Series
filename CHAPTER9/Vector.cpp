@@ -21,8 +21,3 @@ int main(){
     cout << vec2[4] << endl;
 
     return 0;
-
-}
-
-
-// Remove-Item -Recurse -Force CHAPTER9\.git
