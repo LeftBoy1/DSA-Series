@@ -9,8 +9,8 @@ int main(){
     cout<<"Size of vec1: "<< vec1.size() << endl;
     cout<<endl;
     
-
-
+    
+    
     //push_back()  ---> add elements at the end of the vector
     vector<int>vec2;
     
@@ -41,7 +41,7 @@ int main(){
     cout<<endl;
     
 
-
+    
 
     // front()  ---> only print the 0th index element
     // back()   ---> only print the last indexed element 
@@ -49,8 +49,20 @@ int main(){
     cout<<"Front element: "<< vec1.front()<<endl;
     cout<<"Back element: "<< vec1.back()<<endl;
     cout<<"At element: "<< vec1.at(2)<<endl;
-
     
+    cout<<endl;
+    
+
+
+    //Capacity of Vector   ---> how much capacity of a vector to store element
+    vector<int>vec4;
+
+    vec2.push_back(21);
+    vec2.push_back(98);
+    vec2.push_back(29);
+
+    cout<<"Capacity of vec4: "<< vec1.capacity()<<endl;
+    cout<<endl;
     return 0;
 
 }
