@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/Devansh_Gupta/DSA/CHAPTER4/PyramidPatterns.cpp",
-      "program": "f:/Devansh_Gupta/DSA/CHAPTER4/PyramidPatterns.cpp/build/Debug/outDebug",
+      "cwd": "f:/Devansh_Gupta/DSA/CHAPTER9",
+      "program": "f:/Devansh_Gupta/DSA/CHAPTER9/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
