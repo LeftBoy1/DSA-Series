@@ -1,5 +1,5 @@
 // Finding Maximum Sum of Subarray (Brute Force)
-
+        //A brute force approach in coding means solving a problem by trying every possible solution until you find the correct one. It is usually the simplest way to solve a problem, but it is often not the most efficient.
 #include <iostream>
 #include <climits>
 using namespace std;
