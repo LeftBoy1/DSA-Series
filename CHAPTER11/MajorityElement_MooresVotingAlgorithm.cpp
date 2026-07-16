@@ -1,5 +1,5 @@
 #include<iostream>
-#include <vector>
+#include<vector>
 using namespace std;
 
 int main(){
@@ -7,20 +7,25 @@ int main(){
     int ans;    
     int n = arr.size();
 
-    for(int i=0; i<n ; i++){
+
+    for(int i=0; i<n; i++){
         int frequency = 0;
 
         for(int j=0; j<n; j++){
-            if(arr[i] == arr[j]){
+
+            if(frequency == 0){
+                ans = arr[i];
+            }
+            if(ans == arr[i]){
                 frequency++;
             }
-        }
-        if(frequency > n/2){
-            ans = arr[i];
-            break;
+            else{
+                frequency--;
+            }
         }
     }
     cout << "Majority Element = " << ans;
 
     return 0;
+    
 }
