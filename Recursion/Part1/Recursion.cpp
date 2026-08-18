@@ -14,8 +14,6 @@ void printNum(int x){
 int main(){
     
     printNum(4);
-    printNum(5);
-    printNum(6);
 
     return 0;
 }
