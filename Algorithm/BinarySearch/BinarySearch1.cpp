@@ -30,7 +30,5 @@ int main(){
     }
     cout<<"Number is not in the list"<<endl;
 
-
-
     return 0;
 }

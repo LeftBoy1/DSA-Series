@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int arr[] = {-1,0,3,7,9};           //even array
+    int arr[] = {-1,0,3,7};           //even array
     int target = 0;
     int n = sizeof(arr) / sizeof(arr[0]);
 
