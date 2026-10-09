@@ -8,7 +8,7 @@ int main(){
     int *p = &a;
 
     cout<< &a <<endl;       //address of a
-    cout<< p <<endl;        //value of a
+    cout<< p <<endl;        //value of p
     cout<< &p <<endl;       //address of p
     cout<<endl;
     cout<< *(&a) <<endl;    //stored value of &a
