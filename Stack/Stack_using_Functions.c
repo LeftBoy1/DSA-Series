@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int s[10];
+int arr[10];
 int top = -1;
 
-void push(int x){
+void push(int value){
 
     if (top == 9)
     {
         printf("Stack is full\n");
         return;
     }
-    s[++top] = x;
+    arr[++top] = value;
 }
 
 void pop(){
@@ -29,7 +29,7 @@ void peek(){
         return;
     }
 
-    printf("Top element: %d\n", s[top]);
+    printf("Top element: %d\n", arr[top]);
 }
 
 void display(){
@@ -43,7 +43,7 @@ void display(){
 
     for (i = top; i >= 0; i--)
     {
-        printf("%d ", s[i]);
+        printf("%d ", arr[i]);
     }
     printf("\n");
 }

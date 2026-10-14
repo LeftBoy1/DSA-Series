@@ -1,10 +1,9 @@
-
 #include <stdio.h>
 
-int q[10];
+int arr[10];
 int front = -1, rear = -1;
 
-void enqueue(int x) {
+void enqueue(int value) {
 
     if (rear == 9) {
         printf("Queue is full\n");
@@ -15,7 +14,7 @@ void enqueue(int x) {
         front = 0;
     }
 
-    q[++rear] = x;
+    arr[++rear] = value;
 }
 
 void dequeue() {
@@ -39,7 +38,7 @@ void peek() {
         return;
     }
 
-    printf("Front element: %d\n", q[front]);
+    printf("Front element: %d\n", arr[front]);
 }
 
 void display() {
@@ -52,7 +51,7 @@ void display() {
     }
 
     for (i = front; i <= rear; i++) {
-        printf("%d ", q[i]);
+        printf("%d ", arr[i]);
     }
 
     printf("\n");

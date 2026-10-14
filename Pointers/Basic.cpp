@@ -8,11 +8,11 @@ int main(){
     int *p = &a;
 
     cout<< &a <<endl;       //address of a
-    cout<< p <<endl;        //value of p
+    cout<< p <<endl;        //address of a
     cout<< &p <<endl;       //address of p
     cout<<endl;
-    cout<< *(&a) <<endl;    //stored value of &a
-    cout<< *(p) <<endl;    //stored value of p
+    cout<< *(&a) <<endl;    //stored value of a
+    cout<< *(p) <<endl;    //stored value of a
     cout<<endl;
 
 
@@ -24,6 +24,7 @@ int main(){
     //Null Pointer - A pointer that doesn't point to any location
     int *p2 = NULL;
     cout<< p2 <<endl;
+
     return 0;
 }
 
